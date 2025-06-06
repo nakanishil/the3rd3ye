@@ -79,3 +79,58 @@ body {
   transform: scale(1.05);
   opacity: 1;
 }
+
+.btn-animate {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-animate:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.square-btn {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.square-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+
+.neon-text {
+  font-weight: bold;
+  color: #00ffff;
+  text-shadow:
+    0 0 2px #0ff,
+    0 0 4px #0ff,
+    0 0 6px #0ff,
+    0 0 8px #0ff;
+  animation: neon-glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon-glow {
+  from {
+    text-shadow:
+      0 0 1px #0ff,
+      0 0 2px #0ff,
+      0 0 3px #0ff,
+      0 0 4px #0ff;
+  }
+  to {
+    text-shadow:
+      0 0 2px #0ff,
+      0 0 4px #0ff,
+      0 0 6px #0ff,
+      0 0 8px #0ff;
+  }
+}
