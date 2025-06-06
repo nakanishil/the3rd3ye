@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #eee;
+  }
+  
+  header {
+    background-color: #222;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    color: #0ff;
+    letter-spacing: 3px;
+  }
+  
+  header .tagline {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  nav {
+    background-color: #000;
+    padding: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #0ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  .main-visual {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: url('your-banner-image.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .main-visual h2 {
+    font-size: 2.5rem;
+    color: #0ff;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    font-size: 0.9rem;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+#main-logo {
+  transition: transform 1s ease, opacity 1s ease;
+  opacity: 0;
+}
+
+#main-logo.zoom-in {
+  transform: scale(1.05);
+  opacity: 1;
+}
