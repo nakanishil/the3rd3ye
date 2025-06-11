@@ -11,200 +11,163 @@
 
   <!-- ヘッダー -->
   <header class="bg-black text-center py-5">
-    <h1 class="display-3 text-info fw-bold display-3 neon-text">THE 3rd 3YE</h1>
+    <h1 class="display-3 text-info fw-bold neon-text">THE 3rd 3YE</h1>
   </header>
 
   <!-- メインビジュアル -->
-<section class="container my-5">
-  <div class="row align-items-center bg-black bg-opacity-50 p-4 rounded shadow">
-    <!-- 左カラム：ロゴ -->
-    <div class="col-md-6 text-center">
-      <div class="glitch-img" style="max-height: 300px;">
-        <img src="images/the3rd3ye.png" alt="クラブバナー"
-             class="img-fluid rounded shadow"
-             style="max-height: 300px; object-fit: contain;" />
+  <section class="container my-5">
+    <div class="row flex-column flex-md-row align-items-center bg-black bg-opacity-50 p-4 rounded shadow">
+      <!-- 左カラム：ロゴ -->
+      <div class="col-md-6 text-center">
+        <div class="glitch-img" style="max-height: 300px;">
+          <img src="images/the3rd3ye.png" alt="クラブバナー" id="main-logo" class="img-fluid rounded shadow" style="max-height: 300px; object-fit: contain;" />
+        </div>
       </div>
-    </div>
-
-    <!-- 右カラム：説明 -->
-    <div class="col-md-6 text-white">
-      <h2 class="text-info fw-bold">[T3E] THE 3rd 3YE</h2>
-      <p class="mt-3">
-        <span class="text-info">3YE</span> は <strong>EYE（目）</strong> を意味する造語。<br>
-        数字の <strong>3</strong> をアルファベットの <strong>E</strong> に見立てた視覚的表現で、<br>
-        <em class="text-info">“視野を広げ、物事の本質を見抜く”</em>がコンセプト。
-      </p>
-    </div>
-  </div>
-</section>
-
-
- <!-- 理念セクション -->
-<section class="container my-5">
-  <div class="row justify-content-center align-items-start">
-    <!-- 左カラム：タイトル -->
-    <div class="col-md-4 text-start offset-md-1">
-      <h3 class="display-5">Ideology</h3>
-    </div>
-
-    <!-- 右カラム：リスト内容 -->
-    <div class="col-md-6 text-start">
-      <ul class="list-unstyled lead">
-        <li>・お互いを尊重し合う</li>
-        <li>・勝敗よりも楽しむことを大切に</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- テキスト付き正方形リンク -->
-<div class="d-flex justify-content-center flex-wrap gap-4 mt-4">
-  <!-- Discord -->
-  <div class="text-center">
-    <a href="https://discord.gg/WKvAYer5Np" target="_blank" class="square-btn bg-info text-white">
-      💬
-    </a>
-    <p class="mt-2 text-white small">Discord</p>
-  </div>
-
-  <!-- 3on3公式 -->
-  <div class="text-center">
-    <a href="https://3on3.fsgames.com/download/playnow?language=ja" target="_blank" class="square-btn bg-warning text-dark">
-      🏀
-    </a>
-    <p class="mt-2 text-white small">3on3公式</p>
-  </div>
-
-  <!-- YouTube -->
-  <div class="text-center">
-    <a href="https://www.youtube.com/channel/UCXPfaRtReBGQKiOAXgM-cAg" target="_blank" class="square-btn bg-danger text-white">
-      ▶️
-    </a>
-    <p class="mt-2 text-white small">YouTube</p>
-  </div>
-</div>
-
-
-
-
-<!-- ルールセクション -->
-<section class="container my-5">
-  <div class="row justify-content-center align-items-start">
-    <div class="col-md-10 text-start">
-      <button class="btn btn-outline-info w-100 text-start mb-3" data-bs-toggle="collapse" data-bs-target="#ruleCollapse">
-        📜 ClubRule（クリックで開閉）
-      </button>
-
-      <div class="collapse" id="ruleCollapse">
-        <ul class="list-unstyled lead">
-          <li>・野良試合において相手への煽り禁止</li>
-          <li>・野良試合での投げモーション禁止</li>
-        </ul>
-        <p class="lead mt-3 text-center">
-          <small class="text-secondary">
-            ※プレイ人口が減少しているゲームにおいて節度を持ってプレイすることは<br>
-            極めて重要な要素です。
-          </small>
+      <!-- 右カラム：説明 -->
+      <div class="col-md-6 text-white">
+        <h2 class="text-info fw-bold">[T3E] THE 3rd 3YE</h2>
+        <p class="mt-3">
+          <span class="text-info">3YE</span> は <strong>EYE（目）</strong> を意味する造語。<br>
+          数字の <strong>3</strong> をアルファベットの <strong>E</strong> に見立てた視覚的表現で、<br>
+          <em class="text-info">“視野を広げ、物事の本質を見抜く”</em>がコンセプト。
         </p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-
-
-<!-- Owner & Career セクション -->
-<section class="container my-5">
-  <div class="row justify-content-center align-items-start">
-    <div class="col-md-10 text-start">
-      <button class="btn btn-outline-info w-100 text-start mb-3" data-bs-toggle="collapse" data-bs-target="#ownerCollapse">
-        👤 Owner & Career（クリックで開閉）
-      </button>
-
-      <div class="collapse" id="ownerCollapse">
-        <!-- テーブル（制作者情報） -->
-        <h4 class="text-info">Owner</h4>
-        <div class="bg-dark text-white p-4 rounded">
-          <ul class="list-unstyled">
-            <li class="mb-3">
-              <strong>使用キャラ</strong><br>
-              <ul class="list-unstyled ms-3">
-                <li><strong>C</strong></li>
-                <ul class="list-unstyled ms-4">
-                  <li>・アウル</li>
-                  <li>・クリスタ</li>
-                  <li>・ロイド</li>
-                </ul>
-                <li><strong>PF</strong></li>
-                <ul class="list-unstyled ms-4">
-                  <li>・ビッグ・ジョー</li>
-                </ul>
-                <li><strong>SF</strong></li>
-                <ul class="list-unstyled ms-4">
-                  <li>・ジェシー</li>
-                  <li>・ネイサン</li>
-                  <li>・ジャック</li>
-                  <li>・バグマン</li>
-                  <li>・リウ</li>
-                </ul>
-                <li><strong>PG</strong></li>
-                <ul class="list-unstyled ms-4">
-                  <li>・クララ</li>
-                  <li>・リトルフォックス</li>
-                  <li>・ジェネーザ</li>
-                </ul>
-                <li><strong>SG</strong></li>
-                <ul class="list-unstyled ms-4">
-                  <li>・ユナ</li>
-                  <li>・ウォーカー</li>
-                  <li>・ナディア</li>
-                </ul>
-              </ul>
-            </li>
-            <li class="mb-3">
-              <strong>コメント</strong><br>
-              ・勝ち負けより、雰囲気と成長を大切にしてます🔥<br>
-              ・マイナーキャラで遊ぶのが好きです🙌
-            </li>
-          </ul>
-        </div>
-
-        <!-- Career -->
-        <h4 class="text-info">Career</h4>
-        <ul class="list-unstyled small text-secondary">
-          <li>・2005年 クールにバスケFREESTYLEが日本サービス開始</li>
-          <li>・2008年1月23日 Ice氏がAquaクラブを設立</li>
-          <li>・2009年 aquaが初心者支援クラブに方針を変更（らしい）</li>
-          <li>・2010年 私、e.nandeeeことエルク121が入部</li>
-          <li>・2010年 aquaブログ運営開始（管理人）</li>
-          <li>・2013年 フリスタ+の日本サービスが終了</li>
-          <li>・2014年 FreeStyle2を行うも台湾サーバーでプレイするも日本語非対応で辞める</li>
-          <li>・2024年 3on3FreeStyle（ナンバリングでいうと3）をプレイ開始</li>
-          <li>・2024年 ミャゴラーレに入部</li>
-          <li>・2025年6月 THE3rd3YE 創設</li>
+  <!-- 理念セクション -->
+  <section class="container my-5">
+    <div class="row justify-content-center align-items-start">
+      <div class="col-md-4 text-start offset-md-1">
+        <h3 class="display-5">Ideology</h3>
+      </div>
+      <div class="col-md-6 text-start">
+        <ul class="list-unstyled lead">
+          <li>・お互いを尊重し合う</li>
+          <li>・勝敗よりも楽しむことを大切に</li>
         </ul>
       </div>
     </div>
+  </section>
+
+  <!-- リンクボタン群 -->
+  <div class="d-flex justify-content-center flex-wrap gap-3 mt-4">
+    <a href="https://discord.gg/WKvAYer5Np" target="_blank" class="neon-link-btn text-white" style="background-color: #5865F2;">
+      <img src="https://img.icons8.com/ios-filled/24/ffffff/discord-logo.png" alt="Discord" style="width: 24px; margin-right: 8px;"> Discord
+    </a>
+    <a href="https://x.com/THE3rd3YE" target="_blank" class="neon-link-btn text-white border border-white" style="background-color: #000;">
+      <img src="https://img.icons8.com/ios-filled/24/ffffff/x.png" alt="X" style="width: 24px; margin-right: 8px;"> X（旧Twitter）
+    </a>
+    <a href="https://www.youtube.com/channel/UCXPfaRtReBGQKiOAXgM-cAg" target="_blank" class="neon-link-btn bg-danger text-white">
+      ▶️ YouTube
+    </a>
+    <a href="https://3on3.fsgames.com/download/playnow?language=ja" target="_blank" class="neon-link-btn bg-warning text-dark">
+      🏀 3on3公式
+    </a>
   </div>
-</section>
 
+  <!-- ルールセクション -->
+  <section class="container my-5">
+    <div class="row justify-content-center align-items-start">
+      <div class="col-md-10 text-start">
+        <button class="btn btn-outline-info w-100 text-start mb-3" data-bs-toggle="collapse" data-bs-target="#ruleCollapse">
+          📜 ClubRule（クリックで開閉）
+        </button>
+        <div class="collapse" id="ruleCollapse">
+          <ul class="list-unstyled lead">
+            <li>・野良試合において相手への煽り禁止</li>
+            <li>・野良試合での投げモーション禁止</li>
+          </ul>
+          <p class="lead mt-3 text-center">
+            <small class="text-secondary">
+              ※プレイ人口が減少しているゲームにおいて節度を持ってプレイすることは<br>極めて重要な要素です。
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Owner & Career セクション -->
+  <section class="container my-5">
+    <div class="row justify-content-center align-items-start">
+      <div class="col-md-10 text-start">
+        <button class="btn btn-outline-info w-100 text-start mb-3" data-bs-toggle="collapse" data-bs-target="#ownerCollapse">
+          👤 Owner & Career（クリックで開閉）
+        </button>
+        <div class="collapse" id="ownerCollapse">
+          <h4 class="text-info">Owner</h4>
+          <div class="bg-dark text-white p-4 rounded">
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <strong>使用キャラ</strong>
+                <ul class="list-unstyled ms-3">
+                  <li><strong>C</strong></li>
+                  <ul class="list-unstyled ms-4">
+                    <li>・アウル</li>
+                    <li>・クリスタ</li>
+                    <li>・ロイド</li>
+                  </ul>
+                  <li><strong>PF</strong></li>
+                  <ul class="list-unstyled ms-4">
+                    <li>・ビッグ・ジョー</li>
+                  </ul>
+                  <li><strong>SF</strong></li>
+                  <ul class="list-unstyled ms-4">
+                    <li>・ジェシー</li>
+                    <li>・ネイサン</li>
+                    <li>・ジャック</li>
+                    <li>・バグマン</li>
+                    <li>・リウ</li>
+                  </ul>
+                  <li><strong>PG</strong></li>
+                  <ul class="list-unstyled ms-4">
+                    <li>・クララ</li>
+                    <li>・リトルフォックス</li>
+                    <li>・ジェネーザ</li>
+                  </ul>
+                  <li><strong>SG</strong></li>
+                  <ul class="list-unstyled ms-4">
+                    <li>・ユナ</li>
+                    <li>・ウォーカー</li>
+                    <li>・ナディア</li>
+                  </ul>
+                </ul>
+              </li>
+              <li class="mb-3">
+                <strong>コメント</strong><br>
+                ・勝ち負けより、雰囲気と成長を大切にしてます🔥<br>
+                ・マイナーキャラで遊ぶのが好きです🙌
+              </li>
+            </ul>
+          </div>
 
-
-
+          <h4 class="text-info">Career</h4>
+          <ul class="list-unstyled small text-secondary">
+            <li>・2005年 クールにバスケFREESTYLEが日本サービス開始</li>
+            <li>・2008年1月23日 Ice氏がAquaクラブを設立</li>
+            <li>・2009年 aquaが初心者支援クラブに方針を変更（らしい）</li>
+            <li>・2010年 私、e.nandeeeことエルク121が入部</li>
+            <li>・2010年 aquaブログ運営開始（管理人）</li>
+            <li>・2013年 フリスタ+の日本サービスが終了</li>
+            <li>・2014年 FreeStyle2を行うも台湾サーバーでプレイするも日本語非対応で辞める</li>
+            <li>・2024年 3on3FreeStyle（ナンバリングでいうと3）をプレイ開始</li>
+            <li>・2024年 ミャゴラーレに入部</li>
+            <li>・2025年6月 THE3rd3YE 創設</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- フッター -->
   <footer class="bg-black text-center text-secondary py-3 border-top border-secondary">
     <small>&copy; 2025 THE3rd3YE All rights reserved.</small>
   </footer>
 
-  <!-- Bootstrap JS -->
+  <!-- JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- script -->
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
   <script src="script/intro.js"></script>
-
-
 </body>
 </html>
